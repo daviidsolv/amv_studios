@@ -1,0 +1,5596 @@
+[
+  {
+    "label": "footer",
+    "url": "https://sienna.framer.media/",
+    "scroll": 11801,
+    "height": 12801,
+    "videos": [],
+    "dialogs": [],
+    "elements": [
+      {
+        "name": null,
+        "cls": "framer-ksJS2 framer-1b2jcvb",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE\nLONDON-B",
+        "cursor": "4zmkfp",
+        "rect": [
+          0,
+          -11801,
+          1425,
+          12800.78125
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Desktop Remove",
+        "cls": "framer-WKqTj framer-hnmkx9 framer-v-1180b2c",
+        "tag": "NAV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          0,
+          0,
+          1425,
+          92.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "container",
+        "cls": "framer-173cqz6",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          1365,
+          62.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "wrapper",
+        "cls": "framer-nufpvq",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          1365,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "0",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "HOME\nHOME",
+        "cursor": null,
+        "rect": [
+          1002.078125,
+          30,
+          41.109375,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ABOUT\nABOUT",
+        "cursor": null,
+        "rect": [
+          1073.1875,
+          30,
+          47.15625,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "GALLERY\nGALLERY",
+        "cursor": null,
+        "rect": [
+          1150.34375,
+          30,
+          61,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ARTICLES\nARTICLES",
+        "cursor": null,
+        "rect": [
+          1241.34375,
+          30,
+          64.6875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          1336.03125,
+          30,
+          58.96875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "top",
+        "cls": "framer-l3j072",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          64,
+          1365,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "logo",
+        "cls": "framer-1yjnuhh framer-65vmns",
+        "tag": "A",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          64,
+          120,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Sienna",
+        "cls": "framer-1nttz87",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          64,
+          120,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "0",
+        "blur": "none"
+      },
+      {
+        "name": "Desktop",
+        "cls": "framer-EpSgl framer-ZtClR framer-17mtu54 framer-v-17mtu54",
+        "tag": "FOOTER",
+        "text": "EVERY MOMENT HOLDS A STORY WAITING TO BE CAPTURED\n\nHOME\nHOME\nABOUT\nABOUT\nGALLERY",
+        "cursor": null,
+        "rect": [
+          0,
+          -306.46875,
+          1425,
+          1306.25
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "container",
+        "cls": "framer-toc4nj",
+        "tag": "DIV",
+        "text": "EVERY MOMENT HOLDS A STORY WAITING TO BE CAPTURED\n\nHOME\nHOME\nABOUT\nABOUT\nGALLERY",
+        "cursor": null,
+        "rect": [
+          0,
+          -306.46875,
+          1425,
+          1306.25
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "wrapper",
+        "cls": "framer-1k3uqjr",
+        "tag": "DIV",
+        "text": "EVERY MOMENT HOLDS A STORY WAITING TO BE CAPTURED\n\nHOME\nHOME\nABOUT\nABOUT\nGALLERY",
+        "cursor": null,
+        "rect": [
+          30,
+          517.109375,
+          1365,
+          119.375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "top",
+        "cls": "framer-1j47s9h",
+        "tag": "DIV",
+        "text": "EVERY MOMENT HOLDS A STORY WAITING TO BE CAPTURED\n\nHOME\nHOME\nABOUT\nABOUT\nGALLERY",
+        "cursor": null,
+        "rect": [
+          30,
+          517.109375,
+          1365,
+          58.78125
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "text",
+        "cls": "framer-udnw05",
+        "tag": "DIV",
+        "text": "EVERY MOMENT HOLDS A STORY WAITING TO BE CAPTURED",
+        "cursor": null,
+        "rect": [
+          30,
+          517.109375,
+          160,
+          58.78125
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "sitemap",
+        "cls": "framer-e8zp7f",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nCONTACT\nCONTACT",
+        "cursor": null,
+        "rect": [
+          200,
+          561.890625,
+          1195,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "HOME\nHOME",
+        "cursor": null,
+        "rect": [
+          995.125,
+          561.890625,
+          41.109375,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ABOUT\nABOUT",
+        "cursor": null,
+        "rect": [
+          1066.234375,
+          561.890625,
+          47.15625,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "GALLERY\nGALLERY",
+        "cursor": null,
+        "rect": [
+          1143.390625,
+          561.890625,
+          61,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ARTICLES\nARTICLES",
+        "cursor": null,
+        "rect": [
+          1234.390625,
+          561.890625,
+          64.6875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "CONTACT\nCONTACT",
+        "cursor": null,
+        "rect": [
+          1329.078125,
+          561.890625,
+          65.921875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "border",
+        "cls": "framer-1t90q75",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          595.890625,
+          1365,
+          1
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "copyrights",
+        "cls": "framer-15n19u8",
+        "tag": "DIV",
+        "text": "© 2025. SIENNA RIGHTS RESERVED.\nLINKEDIN\nLINKEDIN\nTWITTER\nTWITTER\nINSTAGRAM\nINST",
+        "cursor": null,
+        "rect": [
+          30,
+          616.890625,
+          1365,
+          19.59375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "socials",
+        "cls": "framer-1na1atb",
+        "tag": "DIV",
+        "text": "LINKEDIN\nLINKEDIN\nTWITTER\nTWITTER\nINSTAGRAM\nINSTAGRAM",
+        "cursor": null,
+        "rect": [
+          717.5,
+          619.6875,
+          677.5,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "LINKEDIN\nLINKEDIN",
+        "cursor": null,
+        "rect": [
+          1134.265625,
+          619.6875,
+          61.875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "TWITTER\nTWITTER",
+        "cursor": null,
+        "rect": [
+          1226.140625,
+          619.6875,
+          59.125,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "INSTAGRAM\nINSTAGRAM",
+        "cursor": null,
+        "rect": [
+          1315.265625,
+          619.6875,
+          79.734375,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "logo",
+        "cls": "framer-me68qm",
+        "tag": "DIV",
+        "text": "SIENNA",
+        "cursor": null,
+        "rect": [
+          30,
+          686.484375,
+          1365,
+          313.296875
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": null,
+        "cls": "framer-text",
+        "tag": "H1",
+        "text": "SIENNA",
+        "cursor": null,
+        "rect": [
+          30.02433204650879,
+          686.484375,
+          1364.8795166015625,
+          315.0950927734375
+        ],
+        "font": [
+          "\"DM Sans\", sans-serif",
+          "64px",
+          "900",
+          "49.28px"
+        ],
+        "position": "static",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "img",
+        "cls": "framer-h5tr19",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          0,
+          -306.46875,
+          1425,
+          1306.25
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Desktop",
+        "cls": "framer-jRtmO framer-17l1oye framer-v-17l1oye framer-6pb77e",
+        "tag": "A",
+        "text": "Buy Template\n\nUnlock for $99",
+        "cursor": null,
+        "rect": [
+          1263,
+          902,
+          142,
+          36
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "icon",
+        "cls": "framer-184luzc",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1278,
+          914,
+          11,
+          12
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "text",
+        "cls": "framer-laruek",
+        "tag": "DIV",
+        "text": "Buy Template\n\nUnlock for $99",
+        "cursor": null,
+        "rect": [
+          1299,
+          911.59375,
+          91,
+          16.796875
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-lHGp0 framer-14g77gq framer-pointer-events-none framer-v-14g77gq",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          725.5,
+          688.3200073242188,
+          24,
+          24
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "fixed",
+        "z": "13",
+        "transform": "matrix(1, 0, 0, 1, 725.5, 688.32)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Light",
+        "cls": "framer-6jWyo framer-n0ccwk framer-v-n0ccwk framer-bmpgw8 __framer-badge",
+        "tag": "A",
+        "text": "Create a free website with Framer, the website builder loved by startups, design",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Backdrop",
+        "cls": "framer-13yxzio",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1266,
+          943,
+          138,
+          36
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Content",
+        "cls": "framer-19yaanm",
+        "tag": "DIV",
+        "text": "Create a free website with Framer, the website builder loved by startups, design",
+        "cursor": null,
+        "rect": [
+          1275.5,
+          953,
+          119,
+          16
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, -59.5, -8)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Logo",
+        "cls": "framer-hcsc7 framer-e50co",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1275.5,
+          951,
+          12,
+          20
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, -6, 0)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Text",
+        "cls": "framer-g7oZR framer-1um7t9d",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1297.5,
+          956,
+          97,
+          10
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Bottom",
+        "cls": "framer-j4ugry",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0.06",
+        "blur": "none"
+      },
+      {
+        "name": "Border",
+        "cls": "framer-jnuwbw",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0.04",
+        "blur": "none"
+      }
+    ]
+  },
+  {
+    "label": "navigation-150",
+    "url": "https://sienna.framer.media/about",
+    "scroll": 0,
+    "height": 8092,
+    "videos": [],
+    "dialogs": [],
+    "elements": [
+      {
+        "name": null,
+        "cls": "framer-N7RBm framer-evgycb",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE\n/ ABOUT\n",
+        "cursor": "4zmkfp",
+        "rect": [
+          0,
+          0,
+          1425,
+          8092.015625
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Desktop Scroller",
+        "cls": "framer-WKqTj framer-hnmkx9 framer-v-16b90e5",
+        "tag": "NAV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          0,
+          0,
+          1425,
+          58.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "container",
+        "cls": "framer-173cqz6",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          1365,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "wrapper",
+        "cls": "framer-nufpvq",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          722.5,
+          37.234375,
+          672.5,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "HOME\nHOME",
+        "cursor": null,
+        "rect": [
+          1002.078125,
+          37.234375,
+          41.109375,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ABOUT\nABOUT",
+        "cursor": null,
+        "rect": [
+          1073.1875,
+          37.234375,
+          47.15625,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "GALLERY\nGALLERY",
+        "cursor": null,
+        "rect": [
+          1150.34375,
+          37.234375,
+          61,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ARTICLES\nARTICLES",
+        "cursor": null,
+        "rect": [
+          1241.34375,
+          37.234375,
+          64.6875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          1336.03125,
+          37.234375,
+          58.96875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "top",
+        "cls": "framer-l3j072",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          672.5,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "logo",
+        "cls": "framer-1yjnuhh framer-65vmns",
+        "tag": "A",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          120,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Sienna",
+        "cls": "framer-1nttz87",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          120,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "main",
+        "cls": "framer-gilk5f",
+        "tag": "MAIN",
+        "text": "/ ABOUT\nMORE THAN A PHOTOGRAPHER, AN ARTIST AT HEART\n\nBASED IN THE HEART OF LOND",
+        "cursor": null,
+        "rect": [
+          0,
+          0,
+          1425,
+          6784.765625
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Section - About",
+        "cls": "framer-zkybps",
+        "tag": "SECTION",
+        "text": "/ ABOUT\nMORE THAN A PHOTOGRAPHER, AN ARTIST AT HEART\n\nBASED IN THE HEART OF LOND",
+        "cursor": null,
+        "rect": [
+          0,
+          200,
+          1425,
+          1333.828125
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "header",
+        "cls": "framer-q8zjka",
+        "tag": "HEADER",
+        "text": "/ ABOUT\nMORE THAN A PHOTOGRAPHER, AN ARTIST AT HEART",
+        "cursor": null,
+        "rect": [
+          30,
+          250,
+          1365,
+          167.59375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, 0, 50)",
+        "opacity": "0.001",
+        "blur": "none"
+      },
+      {
+        "name": "arrow down",
+        "cls": "framer-vjxkfe hidden-1hsri9d",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          383.8737487792969,
+          30,
+          30
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, 0, -3.72)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Arrow-down",
+        "cls": "framer-1i1runv",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          383.8737487792969,
+          30,
+          30
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "title",
+        "cls": "framer-1b0o22q",
+        "tag": "DIV",
+        "text": "/ ABOUT\nMORE THAN A PHOTOGRAPHER, AN ARTIST AT HEART",
+        "cursor": null,
+        "rect": [
+          110,
+          250,
+          1285,
+          167.59375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": null,
+        "cls": "framer-text framer-styles-preset-1bz7lg7",
+        "tag": "H1",
+        "text": "MORE THAN A PHOTOGRAPHER, AN ARTIST AT HEART",
+        "cursor": null,
+        "rect": [
+          110,
+          289.59375,
+          900,
+          128
+        ],
+        "font": [
+          "\"DM Sans\", \"DM Sans Placeholder\", sans-serif",
+          "64px",
+          "400",
+          "64px"
+        ],
+        "position": "static",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "container",
+        "cls": "framer-2ptmq5",
+        "tag": "DIV",
+        "text": "BASED IN THE HEART OF LONDON, I AM PASSIONATE PHOTOGRAPHER AND VISUAL STORYTELLE",
+        "cursor": null,
+        "rect": [
+          30,
+          467.59375,
+          1365,
+          758.265625
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "img wrapper",
+        "cls": "framer-1uo1neu",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          517.59375,
+          642.5,
+          758.265625
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, 0, 50)",
+        "opacity": "0.001",
+        "blur": "none"
+      },
+      {
+        "name": "text - wrapper",
+        "cls": "framer-1c84t9h",
+        "tag": "DIV",
+        "text": "BASED IN THE HEART OF LONDON, I AM PASSIONATE PHOTOGRAPHER AND VISUAL STORYTELLE",
+        "cursor": null,
+        "rect": [
+          772.5,
+          669.96875,
+          622.5,
+          353.5
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0.001",
+        "blur": "none"
+      },
+      {
+        "name": "Desktop",
+        "cls": "framer-jRtmO framer-17l1oye framer-v-17l1oye framer-6pb77e",
+        "tag": "A",
+        "text": "Buy Template\n\nUnlock for $99",
+        "cursor": null,
+        "rect": [
+          1263,
+          952,
+          142,
+          36
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "icon",
+        "cls": "framer-184luzc",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1278,
+          964,
+          11,
+          12
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "text",
+        "cls": "framer-laruek",
+        "tag": "DIV",
+        "text": "Buy Template\n\nUnlock for $99",
+        "cursor": null,
+        "rect": [
+          1299,
+          961.59375,
+          91,
+          16.796875
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Light",
+        "cls": "framer-6jWyo framer-n0ccwk framer-v-n0ccwk framer-bmpgw8 __framer-badge",
+        "tag": "A",
+        "text": "Create a free website with Framer, the website builder loved by startups, design",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Backdrop",
+        "cls": "framer-13yxzio",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1266,
+          943,
+          138,
+          36
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Content",
+        "cls": "framer-19yaanm",
+        "tag": "DIV",
+        "text": "Create a free website with Framer, the website builder loved by startups, design",
+        "cursor": null,
+        "rect": [
+          1275.5,
+          953,
+          119,
+          16
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, -59.5, -8)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Logo",
+        "cls": "framer-hcsc7 framer-e50co",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1275.5,
+          951,
+          12,
+          20
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, -6, 0)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Text",
+        "cls": "framer-g7oZR framer-1um7t9d",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1297.5,
+          956,
+          97,
+          10
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Bottom",
+        "cls": "framer-j4ugry",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0.06",
+        "blur": "none"
+      },
+      {
+        "name": "Border",
+        "cls": "framer-jnuwbw",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0.04",
+        "blur": "none"
+      }
+    ]
+  },
+  {
+    "label": "navigation-final",
+    "url": "https://sienna.framer.media/about",
+    "scroll": 0,
+    "height": 8092,
+    "videos": [],
+    "dialogs": [],
+    "elements": [
+      {
+        "name": null,
+        "cls": "framer-N7RBm framer-evgycb",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE\n/ ABOUT\n",
+        "cursor": "4zmkfp",
+        "rect": [
+          0,
+          0,
+          1425,
+          8092.015625
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Desktop Scroller",
+        "cls": "framer-WKqTj framer-hnmkx9 framer-v-16b90e5",
+        "tag": "NAV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          0,
+          0,
+          1425,
+          58.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "container",
+        "cls": "framer-173cqz6",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          1365,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "wrapper",
+        "cls": "framer-nufpvq",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          722.5,
+          37.234375,
+          672.5,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "HOME\nHOME",
+        "cursor": null,
+        "rect": [
+          1002.078125,
+          37.234375,
+          41.109375,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ABOUT\nABOUT",
+        "cursor": null,
+        "rect": [
+          1073.1875,
+          37.234375,
+          47.15625,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "GALLERY\nGALLERY",
+        "cursor": null,
+        "rect": [
+          1150.34375,
+          37.234375,
+          61,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ARTICLES\nARTICLES",
+        "cursor": null,
+        "rect": [
+          1241.34375,
+          37.234375,
+          64.6875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          1336.03125,
+          37.234375,
+          58.96875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "top",
+        "cls": "framer-l3j072",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          672.5,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "logo",
+        "cls": "framer-1yjnuhh framer-65vmns",
+        "tag": "A",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          120,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Sienna",
+        "cls": "framer-1nttz87",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          120,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "main",
+        "cls": "framer-gilk5f",
+        "tag": "MAIN",
+        "text": "/ ABOUT\nMORE THAN A PHOTOGRAPHER, AN ARTIST AT HEART\n\nBASED IN THE HEART OF LOND",
+        "cursor": null,
+        "rect": [
+          0,
+          0,
+          1425,
+          6784.765625
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Section - About",
+        "cls": "framer-zkybps",
+        "tag": "SECTION",
+        "text": "/ ABOUT\nMORE THAN A PHOTOGRAPHER, AN ARTIST AT HEART\n\nBASED IN THE HEART OF LOND",
+        "cursor": null,
+        "rect": [
+          0,
+          200,
+          1425,
+          1333.828125
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "header",
+        "cls": "framer-q8zjka",
+        "tag": "HEADER",
+        "text": "/ ABOUT\nMORE THAN A PHOTOGRAPHER, AN ARTIST AT HEART",
+        "cursor": null,
+        "rect": [
+          30,
+          199.9751739501953,
+          1365,
+          167.59373474121094
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, 0, -0.0248185)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "arrow down",
+        "cls": "framer-vjxkfe hidden-1hsri9d",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          326.6789245605469,
+          30,
+          30
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, 0, -10.89)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Arrow-down",
+        "cls": "framer-1i1runv",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          326.6789245605469,
+          30,
+          30
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "title",
+        "cls": "framer-1b0o22q",
+        "tag": "DIV",
+        "text": "/ ABOUT\nMORE THAN A PHOTOGRAPHER, AN ARTIST AT HEART",
+        "cursor": null,
+        "rect": [
+          110,
+          199.9751739501953,
+          1285,
+          167.59373474121094
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": null,
+        "cls": "framer-text framer-styles-preset-1bz7lg7",
+        "tag": "H1",
+        "text": "MORE THAN A PHOTOGRAPHER, AN ARTIST AT HEART",
+        "cursor": null,
+        "rect": [
+          110,
+          239.56893920898438,
+          900,
+          127.99996948242188
+        ],
+        "font": [
+          "\"DM Sans\", \"DM Sans Placeholder\", sans-serif",
+          "64px",
+          "400",
+          "64px"
+        ],
+        "position": "static",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "container",
+        "cls": "framer-2ptmq5",
+        "tag": "DIV",
+        "text": "BASED IN THE HEART OF LONDON, I AM PASSIONATE PHOTOGRAPHER AND VISUAL STORYTELLE",
+        "cursor": null,
+        "rect": [
+          30,
+          467.59375,
+          1365,
+          758.265625
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "img wrapper",
+        "cls": "framer-1uo1neu",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          467.3664855957031,
+          642.5,
+          758.265625
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, 0, -0.227263)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "text - wrapper",
+        "cls": "framer-1c84t9h",
+        "tag": "DIV",
+        "text": "BASED IN THE HEART OF LONDON, I AM PASSIONATE PHOTOGRAPHER AND VISUAL STORYTELLE",
+        "cursor": null,
+        "rect": [
+          772.5,
+          669.96875,
+          622.5,
+          353.5
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Desktop",
+        "cls": "framer-jRtmO framer-17l1oye framer-v-17l1oye framer-6pb77e",
+        "tag": "A",
+        "text": "Buy Template\n\nUnlock for $99",
+        "cursor": null,
+        "rect": [
+          1263,
+          952,
+          142,
+          36
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "icon",
+        "cls": "framer-184luzc",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1278,
+          964,
+          11,
+          12
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "text",
+        "cls": "framer-laruek",
+        "tag": "DIV",
+        "text": "Buy Template\n\nUnlock for $99",
+        "cursor": null,
+        "rect": [
+          1299,
+          961.59375,
+          91,
+          16.796875
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Light",
+        "cls": "framer-6jWyo framer-n0ccwk framer-v-n0ccwk framer-bmpgw8 __framer-badge",
+        "tag": "A",
+        "text": "Create a free website with Framer, the website builder loved by startups, design",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Backdrop",
+        "cls": "framer-13yxzio",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1266,
+          943,
+          138,
+          36
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Content",
+        "cls": "framer-19yaanm",
+        "tag": "DIV",
+        "text": "Create a free website with Framer, the website builder loved by startups, design",
+        "cursor": null,
+        "rect": [
+          1275.5,
+          953,
+          119,
+          16
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, -59.5, -8)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Logo",
+        "cls": "framer-hcsc7 framer-e50co",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1275.5,
+          951,
+          12,
+          20
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, -6, 0)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Text",
+        "cls": "framer-g7oZR framer-1um7t9d",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1297.5,
+          956,
+          97,
+          10
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Bottom",
+        "cls": "framer-j4ugry",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0.06",
+        "blur": "none"
+      },
+      {
+        "name": "Border",
+        "cls": "framer-jnuwbw",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0.04",
+        "blur": "none"
+      }
+    ]
+  },
+  {
+    "label": "contact-video",
+    "url": "https://sienna.framer.media/enquire",
+    "scroll": 0,
+    "height": 3280,
+    "videos": [
+      {
+        "src": "https://grainient.b-cdn.net/%40Grainient-Freebies/8358807-uhd_4096_2160_25fps.mp4",
+        "poster": "https://framerusercontent.com/images/AjKJQUTIqTuB6Ui54VhWBXZFWk.webp?width=3500&height=2333",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "playsInline": true,
+        "size": [
+          4096,
+          2160
+        ],
+        "time": 23.0351
+      }
+    ],
+    "dialogs": [],
+    "elements": [
+      {
+        "name": null,
+        "cls": "framer-N7RBm framer-evgycb",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE\nLIGHTS, ",
+        "cursor": "4zmkfp",
+        "rect": [
+          0,
+          0,
+          1425,
+          3280.015625
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Desktop Scroller",
+        "cls": "framer-WKqTj framer-hnmkx9 framer-v-16b90e5",
+        "tag": "NAV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          0,
+          0,
+          1425,
+          58.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "container",
+        "cls": "framer-173cqz6",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          1365,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "wrapper",
+        "cls": "framer-nufpvq",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          722.5,
+          37.234375,
+          672.5,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "HOME\nHOME",
+        "cursor": null,
+        "rect": [
+          1002.078125,
+          37.234375,
+          41.109375,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ABOUT\nABOUT",
+        "cursor": null,
+        "rect": [
+          1073.1875,
+          37.234375,
+          47.15625,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "GALLERY\nGALLERY",
+        "cursor": null,
+        "rect": [
+          1150.34375,
+          37.234375,
+          61,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ARTICLES\nARTICLES",
+        "cursor": null,
+        "rect": [
+          1241.34375,
+          37.234375,
+          64.6875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          1336.03125,
+          37.234375,
+          58.96875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "top",
+        "cls": "framer-l3j072",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          672.5,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "logo",
+        "cls": "framer-1yjnuhh framer-65vmns",
+        "tag": "A",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          120,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Sienna",
+        "cls": "framer-1nttz87",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          120,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "main",
+        "cls": "framer-1tf1stp",
+        "tag": "MAIN",
+        "text": "LIGHTS, CAMERA, GLAMOUR\nPERSONAL\n/\nCOMMERCIAL\n\nYOUR NAME*\n\nINSTAGRAM*\n\nYOUR EMAI",
+        "cursor": null,
+        "rect": [
+          0,
+          0,
+          1425,
+          1972.765625
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "section - contact",
+        "cls": "framer-13iln84",
+        "tag": "SECTION",
+        "text": "LIGHTS, CAMERA, GLAMOUR\nPERSONAL\n/\nCOMMERCIAL\n\nYOUR NAME*\n\nINSTAGRAM*\n\nYOUR EMAI",
+        "cursor": null,
+        "rect": [
+          0,
+          0,
+          1425,
+          1001.171875
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Desktop - Personal",
+        "cls": "framer-hBuID framer-NVvAt framer-19H2M framer-wEW9N framer-6vimbw framer-v-6vimbw",
+        "tag": "DIV",
+        "text": "LIGHTS, CAMERA, GLAMOUR\nPERSONAL\n/\nCOMMERCIAL\n\nYOUR NAME*\n\nINSTAGRAM*\n\nYOUR EMAI",
+        "cursor": null,
+        "rect": [
+          362.5,
+          70,
+          700,
+          901.171875
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "blur(10px)"
+      },
+      {
+        "name": null,
+        "cls": "framer-text framer-styles-preset-14euay6",
+        "tag": "H1",
+        "text": "LIGHTS, CAMERA, GLAMOUR",
+        "cursor": null,
+        "rect": [
+          412.5,
+          120,
+          600,
+          100
+        ],
+        "font": [
+          "\"DM Sans\", \"DM Sans Placeholder\", sans-serif",
+          "50px",
+          "400",
+          "50px"
+        ],
+        "position": "static",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "toggle",
+        "cls": "framer-yk8qwo",
+        "tag": "DIV",
+        "text": "PERSONAL\n/\nCOMMERCIAL",
+        "cursor": null,
+        "rect": [
+          412.5,
+          270,
+          600,
+          26
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Personal ",
+        "cls": "framer-1g9ypf8",
+        "tag": "FORM",
+        "text": "YOUR NAME*\n\nINSTAGRAM*\n\nYOUR EMAIL*\n\nSHOOTING LOCATION*\n\nPREFERRED DATE*\n\nHEARD ",
+        "cursor": null,
+        "rect": [
+          412.5,
+          346,
+          600,
+          575.171875
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "btn holder",
+        "cls": "framer-1lfyfqr",
+        "tag": "DIV",
+        "text": "SEND ENQUIRE",
+        "cursor": null,
+        "rect": [
+          412.5,
+          875.171875,
+          600,
+          46
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-gd7f3 framer-19H2M framer-1vdu0zt framer-v-1vdu0zt",
+        "tag": "BUTTON",
+        "text": "SEND ENQUIRE",
+        "cursor": null,
+        "rect": [
+          412.5,
+          895.171875,
+          167.375,
+          26
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "icon holder",
+        "cls": "framer-2fm7mb",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          412.5,
+          898.171875,
+          20,
+          20
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "icon",
+        "cls": "framer-abxtiz",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          415.5,
+          901.171875,
+          14,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Desktop",
+        "cls": "framer-jRtmO framer-17l1oye framer-v-17l1oye framer-6pb77e",
+        "tag": "A",
+        "text": "Buy Template\n\nUnlock for $99",
+        "cursor": null,
+        "rect": [
+          1263,
+          902,
+          142,
+          36
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "icon",
+        "cls": "framer-184luzc",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1278,
+          914,
+          11,
+          12
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "text",
+        "cls": "framer-laruek",
+        "tag": "DIV",
+        "text": "Buy Template\n\nUnlock for $99",
+        "cursor": null,
+        "rect": [
+          1299,
+          911.59375,
+          91,
+          16.796875
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-lHGp0 framer-14g77gq framer-pointer-events-none framer-v-14g77gq",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          -12,
+          -12,
+          24,
+          24
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "fixed",
+        "z": "13",
+        "transform": "matrix(1, 0, 0, 1, -12, -12)",
+        "opacity": "0",
+        "blur": "none"
+      },
+      {
+        "name": "Light",
+        "cls": "framer-6jWyo framer-n0ccwk framer-v-n0ccwk framer-bmpgw8 __framer-badge",
+        "tag": "A",
+        "text": "Create a free website with Framer, the website builder loved by startups, design",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Backdrop",
+        "cls": "framer-13yxzio",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1266,
+          943,
+          138,
+          36
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Content",
+        "cls": "framer-19yaanm",
+        "tag": "DIV",
+        "text": "Create a free website with Framer, the website builder loved by startups, design",
+        "cursor": null,
+        "rect": [
+          1275.5,
+          953,
+          119,
+          16
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, -59.5, -8)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Logo",
+        "cls": "framer-hcsc7 framer-e50co",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1275.5,
+          951,
+          12,
+          20
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, -6, 0)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Text",
+        "cls": "framer-g7oZR framer-1um7t9d",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1297.5,
+          956,
+          97,
+          10
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Bottom",
+        "cls": "framer-j4ugry",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0.06",
+        "blur": "none"
+      },
+      {
+        "name": "Border",
+        "cls": "framer-jnuwbw",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0.04",
+        "blur": "none"
+      }
+    ]
+  },
+  {
+    "label": "project-images",
+    "url": "https://sienna.framer.media/gallery/luminous-nights-a-disco-inspired-portrait",
+    "scroll": 5023,
+    "height": 10761,
+    "videos": [],
+    "dialogs": [],
+    "elements": [
+      {
+        "name": null,
+        "cls": "framer-rGxHW framer-1maf0xb",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE\n/ GALLER",
+        "cursor": "4zmkfp",
+        "rect": [
+          0,
+          -5023,
+          1425,
+          10761.3125
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Desktop Scroller",
+        "cls": "framer-WKqTj framer-hnmkx9 framer-v-16b90e5",
+        "tag": "NAV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          0,
+          0,
+          1425,
+          58.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "container",
+        "cls": "framer-173cqz6",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          1365,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "wrapper",
+        "cls": "framer-nufpvq",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          722.5,
+          37.234375,
+          672.5,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "HOME\nHOME",
+        "cursor": null,
+        "rect": [
+          1002.078125,
+          37.234375,
+          41.109375,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ABOUT\nABOUT",
+        "cursor": null,
+        "rect": [
+          1073.1875,
+          37.234375,
+          47.15625,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "GALLERY\nGALLERY",
+        "cursor": null,
+        "rect": [
+          1150.34375,
+          37.234375,
+          61,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ARTICLES\nARTICLES",
+        "cursor": null,
+        "rect": [
+          1241.34375,
+          37.234375,
+          64.6875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          1336.03125,
+          37.234375,
+          58.96875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "top",
+        "cls": "framer-l3j072",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          672.5,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "logo",
+        "cls": "framer-1yjnuhh framer-65vmns",
+        "tag": "A",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          120,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Sienna",
+        "cls": "framer-1nttz87",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          120,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "main",
+        "cls": "framer-266l8l",
+        "tag": "MAIN",
+        "text": "/ GALLERY\nLUMINOUS NIGHTS: A DISCO-INSPIRED PORTRAIT\n/ CATEGORY\nPORTRAITS\n/ CLIE",
+        "cursor": null,
+        "rect": [
+          0,
+          -5023,
+          1425,
+          10760.3125
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Section - Images",
+        "cls": "framer-h0e4f1",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          0,
+          -2081.484375,
+          1425,
+          5162.546875
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Container",
+        "cls": "framer-1bm896n",
+        "tag": "SECTION",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          -2081.484375,
+          1365,
+          5162.546875
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "row 2",
+        "cls": "framer-z9unao",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          -1195.125,
+          1365,
+          1317.109375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0",
+        "blur": "none"
+      },
+      {
+        "name": "img 3",
+        "cls": "framer-192xb57",
+        "tag": "DIV",
+        "text": "",
+        "cursor": "1lu1gce",
+        "rect": [
+          30,
+          -1195.125,
+          1365,
+          1317.109375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "row 3",
+        "cls": "framer-143xipp",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          271.984375,
+          1365,
+          886.359375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "holder",
+        "cls": "framer-1yias2p",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          271.984375,
+          607.5,
+          886.359375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "img 4",
+        "cls": "framer-gamv73",
+        "tag": "DIV",
+        "text": "",
+        "cursor": "1lu1gce",
+        "rect": [
+          30,
+          421.984375,
+          607.5,
+          736.359375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "img 5",
+        "cls": "framer-1vc6d33",
+        "tag": "DIV",
+        "text": "",
+        "cursor": "1lu1gce",
+        "rect": [
+          787.5,
+          271.984375,
+          607.5,
+          736.359375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Desktop",
+        "cls": "framer-jRtmO framer-17l1oye framer-v-17l1oye framer-6pb77e",
+        "tag": "A",
+        "text": "Buy Template\n\nUnlock for $99",
+        "cursor": null,
+        "rect": [
+          1263,
+          903.7261352539062,
+          142,
+          36
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "icon",
+        "cls": "framer-184luzc",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1278,
+          915.7261352539062,
+          11,
+          12
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "text",
+        "cls": "framer-laruek",
+        "tag": "DIV",
+        "text": "Buy Template\n\nUnlock for $99",
+        "cursor": null,
+        "rect": [
+          1299,
+          913.3198852539062,
+          91,
+          16.796875
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-lHGp0 framer-14g77gq framer-pointer-events-none framer-v-14g77gq",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          -12,
+          -12,
+          24,
+          24
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "fixed",
+        "z": "13",
+        "transform": "matrix(1, 0, 0, 1, -12, -12)",
+        "opacity": "0",
+        "blur": "none"
+      },
+      {
+        "name": "Light",
+        "cls": "framer-6jWyo framer-n0ccwk framer-v-n0ccwk framer-bmpgw8 __framer-badge",
+        "tag": "A",
+        "text": "Create a free website with Framer, the website builder loved by startups, design",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Backdrop",
+        "cls": "framer-13yxzio",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1266,
+          943,
+          138,
+          36
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Content",
+        "cls": "framer-19yaanm",
+        "tag": "DIV",
+        "text": "Create a free website with Framer, the website builder loved by startups, design",
+        "cursor": null,
+        "rect": [
+          1275.5,
+          953,
+          119,
+          16
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, -59.5, -8)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Logo",
+        "cls": "framer-hcsc7 framer-e50co",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1275.5,
+          951,
+          12,
+          20
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, -6, 0)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Text",
+        "cls": "framer-g7oZR framer-1um7t9d",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1297.5,
+          956,
+          97,
+          10
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Bottom",
+        "cls": "framer-j4ugry",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0.06",
+        "blur": "none"
+      },
+      {
+        "name": "Border",
+        "cls": "framer-jnuwbw",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0.04",
+        "blur": "none"
+      }
+    ]
+  },
+  {
+    "label": "project-image-click",
+    "url": "https://sienna.framer.media/gallery/luminous-nights-a-disco-inspired-portrait",
+    "scroll": 2810,
+    "height": 10761,
+    "videos": [],
+    "dialogs": [],
+    "elements": [
+      {
+        "name": null,
+        "cls": "framer-rGxHW framer-1maf0xb",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE\n/ GALLER",
+        "cursor": "4zmkfp",
+        "rect": [
+          0,
+          -2810,
+          1425,
+          10761.3125
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Desktop Scroller",
+        "cls": "framer-WKqTj framer-hnmkx9 framer-v-16b90e5",
+        "tag": "NAV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          0,
+          0,
+          1425,
+          58.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "container",
+        "cls": "framer-173cqz6",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          1365,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "wrapper",
+        "cls": "framer-nufpvq",
+        "tag": "DIV",
+        "text": "HOME\nHOME\nABOUT\nABOUT\nGALLERY\nGALLERY\nARTICLES\nARTICLES\nENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          722.5,
+          37.234375,
+          672.5,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "HOME\nHOME",
+        "cursor": null,
+        "rect": [
+          1002.078125,
+          37.234375,
+          41.109375,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ABOUT\nABOUT",
+        "cursor": null,
+        "rect": [
+          1073.1875,
+          37.234375,
+          47.15625,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "GALLERY\nGALLERY",
+        "cursor": null,
+        "rect": [
+          1150.34375,
+          37.234375,
+          61,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ARTICLES\nARTICLES",
+        "cursor": null,
+        "rect": [
+          1241.34375,
+          37.234375,
+          64.6875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-xNu51 framer-687cU framer-1rvzzmz framer-v-1rvzzmz framer-1c3ef8h",
+        "tag": "A",
+        "text": "ENQUIRE\nENQUIRE",
+        "cursor": null,
+        "rect": [
+          1336.03125,
+          37.234375,
+          58.96875,
+          14
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "top",
+        "cls": "framer-l3j072",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          672.5,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "logo",
+        "cls": "framer-1yjnuhh framer-65vmns",
+        "tag": "A",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          120,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Sienna",
+        "cls": "framer-1nttz87",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          30,
+          120,
+          28.484375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "main",
+        "cls": "framer-266l8l",
+        "tag": "MAIN",
+        "text": "/ GALLERY\nLUMINOUS NIGHTS: A DISCO-INSPIRED PORTRAIT\n/ CATEGORY\nPORTRAITS\n/ CLIE",
+        "cursor": null,
+        "rect": [
+          0,
+          -2810,
+          1425,
+          10760.3125
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Section - Images",
+        "cls": "framer-h0e4f1",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          0,
+          131.515625,
+          1425,
+          5162.546875
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Container",
+        "cls": "framer-1bm896n",
+        "tag": "SECTION",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          131.515625,
+          1365,
+          5162.546875
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "row 1",
+        "cls": "framer-6p77h9",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          131.515625,
+          1365,
+          736.359375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "img 1",
+        "cls": "framer-136nks1",
+        "tag": "DIV",
+        "text": "",
+        "cursor": "1lu1gce",
+        "rect": [
+          30,
+          131.515625,
+          607.5,
+          736.359375
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "img 2",
+        "cls": "framer-hc8ljl",
+        "tag": "DIV",
+        "text": "",
+        "cursor": "1lu1gce",
+        "rect": [
+          787.5,
+          284.921875,
+          607.5,
+          429.53125
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Desktop",
+        "cls": "framer-jRtmO framer-17l1oye framer-v-17l1oye framer-6pb77e",
+        "tag": "A",
+        "text": "Buy Template\n\nUnlock for $99",
+        "cursor": null,
+        "rect": [
+          1263,
+          902,
+          142,
+          36
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "icon",
+        "cls": "framer-184luzc",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1278,
+          914,
+          11,
+          12
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "text",
+        "cls": "framer-laruek",
+        "tag": "DIV",
+        "text": "Buy Template\n\nUnlock for $99",
+        "cursor": null,
+        "rect": [
+          1299,
+          911.59375,
+          91,
+          16.796875
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "2",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "container",
+        "cls": "framer-c1NtL framer-ZtClR framer-iGzQe framer-wEW9N framer-NVvAt framer-RuTC1 framer-19H2M framer-1iwnjzv",
+        "tag": "DIV",
+        "text": "",
+        "cursor": "4zmkfp",
+        "rect": [
+          0,
+          0,
+          1425,
+          1000
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "fixed",
+        "z": "9",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Img 1",
+        "cls": "framer-uI2sV framer-fdx9hx framer-v-1u8nljf",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          80,
+          1365,
+          890
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "img holder",
+        "cls": "framer-1e9g133",
+        "tag": "DIV",
+        "text": "",
+        "cursor": "b436p2",
+        "rect": [
+          30,
+          80,
+          1365,
+          810
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "img 1",
+        "cls": "framer-1d1hcuy",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          30,
+          80,
+          1365,
+          810
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0.998018",
+        "blur": "none"
+      },
+      {
+        "name": "controler",
+        "cls": "framer-3nrgl",
+        "tag": "DIV",
+        "text": "",
+        "cursor": "4zmkfp",
+        "rect": [
+          30,
+          900,
+          1365,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Banner 1",
+        "cls": "framer-g3a4oq-container",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          277.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-r44uZ framer-22xpzk framer-v-22xpzk",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          277.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Img 1",
+        "cls": "framer-1lmh8yx-container",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          357.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Active",
+        "cls": "framer-r44uZ framer-22xpzk framer-v-1mygioe",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          357.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Img 2",
+        "cls": "framer-vdu5f5-container",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          437.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-r44uZ framer-22xpzk framer-v-22xpzk",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          437.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Img 3",
+        "cls": "framer-19p6ea2-container",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          517.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-r44uZ framer-22xpzk framer-v-22xpzk",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          517.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Img 4",
+        "cls": "framer-yutud8-container",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          597.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-r44uZ framer-22xpzk framer-v-22xpzk",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          597.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Img 5",
+        "cls": "framer-u527ym-container",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          677.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-r44uZ framer-22xpzk framer-v-22xpzk",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          677.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Img 6",
+        "cls": "framer-64si7d-container",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          757.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-r44uZ framer-22xpzk framer-v-22xpzk",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          757.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Img 7",
+        "cls": "framer-1jf73uk-container",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          837.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-r44uZ framer-22xpzk framer-v-22xpzk",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          837.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Img 8",
+        "cls": "framer-yncp20-container",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          917.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-r44uZ framer-22xpzk framer-v-22xpzk",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          917.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Img 9",
+        "cls": "framer-w3vli6-container",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          997.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-r44uZ framer-22xpzk framer-v-22xpzk",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          997.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Client img",
+        "cls": "framer-113a68k-container",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1077.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Default",
+        "cls": "framer-r44uZ framer-22xpzk framer-v-22xpzk",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1077.5,
+          900,
+          70,
+          70
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "For Close",
+        "cls": "framer-lHGp0 framer-14g77gq framer-pointer-events-none framer-v-17dnajz",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          303.75,
+          469.69000244140625,
+          60,
+          60
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "fixed",
+        "z": "13",
+        "transform": "matrix(1, 0, 0, 1, 303.75, 469.69)",
+        "opacity": "1",
+        "blur": "blur(5px)"
+      },
+      {
+        "name": "holder",
+        "cls": "framer-55yp2k",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          312.53680419921875,
+          478.476806640625,
+          42.4263916015625,
+          42.4263916015625
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "matrix(-0.707107, 0.707107, -0.707107, -0.707107, 0, 0)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Plus",
+        "cls": "framer-1mbfs6v",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          312.53680419921875,
+          478.476806640625,
+          42.4263916015625,
+          42.4263916015625
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Light",
+        "cls": "framer-6jWyo framer-n0ccwk framer-v-n0ccwk framer-bmpgw8 __framer-badge",
+        "tag": "A",
+        "text": "Create a free website with Framer, the website builder loved by startups, design",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Backdrop",
+        "cls": "framer-13yxzio",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1266,
+          943,
+          138,
+          36
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Content",
+        "cls": "framer-19yaanm",
+        "tag": "DIV",
+        "text": "Create a free website with Framer, the website builder loved by startups, design",
+        "cursor": null,
+        "rect": [
+          1275.5,
+          953,
+          119,
+          16
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, -59.5, -8)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Logo",
+        "cls": "framer-hcsc7 framer-e50co",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1275.5,
+          951,
+          12,
+          20
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "matrix(1, 0, 0, 1, -6, 0)",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Text",
+        "cls": "framer-g7oZR framer-1um7t9d",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1297.5,
+          956,
+          97,
+          10
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "relative",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "1",
+        "blur": "none"
+      },
+      {
+        "name": "Bottom",
+        "cls": "framer-j4ugry",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0.06",
+        "blur": "none"
+      },
+      {
+        "name": "Border",
+        "cls": "framer-jnuwbw",
+        "tag": "DIV",
+        "text": "",
+        "cursor": null,
+        "rect": [
+          1265,
+          942,
+          140,
+          38
+        ],
+        "font": [
+          "sans-serif",
+          "12px",
+          "400",
+          "normal"
+        ],
+        "position": "absolute",
+        "z": "auto",
+        "transform": "none",
+        "opacity": "0.04",
+        "blur": "none"
+      }
+    ]
+  }
+]

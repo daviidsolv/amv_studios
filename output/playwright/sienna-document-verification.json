@@ -1,0 +1,45 @@
+{
+  "file": "C:/Users/david/Desktop/CRAFO/chapuzalia/inmobiliaria/chapu/amv_studios/SIENNA_REGLAS_DE_DISENO.md",
+  "lines": 894,
+  "words": 8294,
+  "localLinks": 32,
+  "missing": [],
+  "breakpoints": [
+    {
+      "hash": "72rtr7",
+      "mediaQuery": "(min-width: 1200px)"
+    },
+    {
+      "hash": "9sdyds",
+      "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)"
+    },
+    {
+      "hash": "pzxk9m",
+      "mediaQuery": "(max-width: 809.98px)"
+    }
+  ],
+  "scrollThresholds": [
+    {
+      "y": 300,
+      "name": "Desktop Big"
+    },
+    {
+      "y": 390,
+      "name": "Desktop Big"
+    },
+    {
+      "y": 391,
+      "name": "Desktop Scroller"
+    },
+    {
+      "y": 392,
+      "name": "Desktop Scroller"
+    },
+    {
+      "y": 400,
+      "name": "Desktop Scroller"
+    }
+  ],
+  "touchOverflow": 0,
+  "manualTestimonial": true
+}
