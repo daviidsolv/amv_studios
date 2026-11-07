@@ -11,3 +11,4 @@ test-results*/
 .DS_Store
 .netlify/
 output/private/
+output/playwright/amv-dashboard-*.png
