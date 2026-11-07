@@ -1,5 +1,6 @@
 import { cache } from "react";
 import { unstable_cache } from "next/cache";
+import { connection } from "next/server";
 import { collectImageSources, defaultContent, siteContentSchema, type ContentSnapshot, type SiteContent } from "@/content/schema";
 import { database, databaseConfigured } from "./database";
 import { ApiError } from "./http";
@@ -12,7 +13,11 @@ export async function readContent(): Promise<ContentSnapshot> {
 }
 
 const cachedContent = unstable_cache(async () => (await readContent()).content, ["amv-site-content-v1"], { tags: ["amv-content"], revalidate: 60 });
-export const getSiteContent = cache(cachedContent);
+export const getSiteContent = cache(async () => {
+  // Netlify applies initial migrations after the framework build, before publishing.
+  await connection();
+  return cachedContent();
+});
 
 export async function saveContent(content: SiteContent, revision: number): Promise<ContentSnapshot> {
   if (!databaseConfigured()) throw new ApiError(503, "La base de datos de Netlify no está configurada.");

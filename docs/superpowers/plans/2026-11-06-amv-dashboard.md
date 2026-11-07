@@ -39,3 +39,4 @@
 - Credenciales iniciales generadas en un archivo local ignorado por Git. Variables privadas configuradas mediante la CLI oficial, con ámbito Functions y contextos de producción y preview.
 - Revisión independiente del backend realizada. Se reprodujo y corrigió un error de conexiones inactivas del pool; además se reprodujo y corrigió la validación de enlaces malformados. Los casos tienen pruebas de regresión.
 - 2026-11-07: reanudado el trabajo; 20 pruebas correctas y build de producción completado. Pendiente la validación alojada antes de actualizar producción.
+- Primer build remoto: detectada lectura prematura de tablas antes de la migración inicial. Se retrasa el acceso al contenido hasta la petición mediante `connection()`, manteniendo la caché compartida.
