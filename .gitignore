@@ -5,6 +5,9 @@ out/
 !.env.example
 playwright-report/
 test-results/
+test-results*/
 *.tsbuildinfo
 .playwright-cli/
 .DS_Store
+.netlify/
+output/private/

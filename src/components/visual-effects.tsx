@@ -2,8 +2,11 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { AnimatePresence, motion, useMotionValue, useReducedMotion, useScroll, useSpring, useTransform } from "motion/react";
-import { photos, homeContent, type Photo } from "@/content/site";
+import type { SiteContent } from "@/content/schema";
+import { useSiteContent } from "./site-content";
 import { ActionLink, Arrow, PhotoImage } from "./ui";
+
+type Photo = SiteContent["photos"]["soft"];
 
 export function Reveal({ children, className = "", lift = false }: { children: ReactNode; className?: string; lift?: boolean }) {
   const reduce = useReducedMotion();
@@ -11,8 +14,9 @@ export function Reveal({ children, className = "", lift = false }: { children: R
 }
 
 export function HeroPhotos() {
+  const { homeContent } = useSiteContent();
   const reduce = useReducedMotion();
-  return <div className="hero-photos">{homeContent.hero.map((photo, index) => <motion.div key={photo.src} className={`hero-photo hero-photo--${index === 1 ? "center" : "side"}`} initial={reduce ? false : { opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={reduce ? { duration: 0 } : { type: "spring", duration: 1.2, bounce: 0.2, delay: 0.4 + index * 0.2 }}><PhotoImage photo={photo} preload={index === 1} sizes="(max-width:809px) 100vw, 34vw" /><span className="hero-photo__number" aria-hidden="true">0{index + 1} / AMV</span></motion.div>)}</div>;
+  return <div className="hero-photos">{homeContent.hero.map((photo, index) => <motion.div key={index} className={`hero-photo hero-photo--${index === 1 ? "center" : "side"}`} initial={reduce ? false : { opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={reduce ? { duration: 0 } : { type: "spring", duration: 1.2, bounce: 0.2, delay: 0.4 + index * 0.2 }}><PhotoImage photo={photo} preload={index === 1} sizes="(max-width:809px) 100vw, 34vw" /><span className="hero-photo__number" aria-hidden="true">0{index + 1} / AMV</span></motion.div>)}</div>;
 }
 
 export function ProgressiveBlur() {
@@ -64,13 +68,14 @@ function MosaicRow({ images, speed, reverse, shift }: { images: Photo[]; speed: 
 }
 
 export function PhotoMosaic() {
+  const { brand, photos, homeContent } = useSiteContent();
   const ref = useRef<HTMLElement>(null);
   const [paused, setPaused] = useState(false);
   const reduce = useReducedMotion();
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
   const left = useTransform(scrollYProgress, [0, 1], reduce ? [0, 0] : [0, -250]);
   const right = useTransform(scrollYProgress, [0, 1], reduce ? [0, 0] : [0, 250]);
-  return <section ref={ref} className="mosaic" data-paused={paused} aria-label="Más miradas de AMV Studio">
+  return <section ref={ref} className="mosaic" data-paused={paused} aria-label={`Más miradas de ${brand.name}`}>
     <div className="mosaic__mask"><MosaicRow images={[photos.soft, photos.copper, photos.sun, photos.man, photos.couple]} speed={20} shift={left} /><MosaicRow images={[photos.sun, photos.moment, photos.soft, photos.light, photos.copper]} speed={10} shift={right} reverse /><MosaicRow images={[photos.couple, photos.man, photos.copper, photos.sun, photos.soft]} speed={30} shift={left} /></div>
     <Reveal className="mosaic__content" lift><p className="eyebrow">/ Mucho más que una fotografía</p><h2>{homeContent.mosaicTitle}</h2><ActionLink href="/galeria">Descubrir todas las miradas</ActionLink></Reveal>
     <button className="mosaic__pause" onClick={() => setPaused(!paused)} aria-label={paused ? "Reanudar movimiento" : "Pausar movimiento"} aria-pressed={paused}>{paused ? "▷ Reanudar" : "Ⅱ Pausar"}</button>
@@ -82,9 +87,10 @@ export function StoryCarousel({ items, label }: { items: { title: string; text: 
   const [direction, setDirection] = useState(1);
   const reduce = useReducedMotion();
   const change = (step: number) => { setDirection(step); setIndex((value) => (value + step + items.length) % items.length); };
-  const item = items[index];
+  const activeIndex = index % items.length;
+  const item = items[activeIndex];
   return <div className="story-carousel" role="region" aria-roledescription="carrusel" aria-label={label}>
-    <div className="story-carousel__window" aria-live="polite" aria-atomic="true"><AnimatePresence initial={false} custom={direction} mode="popLayout"><motion.div key={index} className="story-carousel__slide" custom={direction} variants={{ enter: (dir: number) => ({ x: reduce ? 0 : `${dir * 100}%`, opacity: 0 }), center: { x: 0, opacity: 1 }, exit: (dir: number) => ({ x: reduce ? 0 : `${dir * -100}%`, opacity: 0 }) }} initial="enter" animate="center" exit="exit" transition={reduce ? { duration: 0.12 } : { type: "spring", stiffness: 200, damping: 40, mass: 1 }} drag={reduce ? false : "x"} dragConstraints={{ left: 0, right: 0 }} dragElastic={0.15} onDragEnd={(_, info) => { if (Math.abs(info.offset.x) > 45 || Math.abs(info.velocity.x) > 350) change(info.offset.x < 0 ? 1 : -1); }}><p className="eyebrow">{item.label}</p><h3>{item.title}</h3><p>{item.text}</p></motion.div></AnimatePresence></div>
-    <div className="carousel-controls"><button className="square-button" aria-label="Anterior" onClick={() => change(-1)}><Arrow direction="left" /></button><span className="carousel-count">0{index + 1} / 0{items.length}</span><button className="square-button" aria-label="Siguiente" onClick={() => change(1)}><Arrow direction="right" /></button></div>
+    <div className="story-carousel__window" aria-live="polite" aria-atomic="true"><AnimatePresence initial={false} custom={direction} mode="popLayout"><motion.div key={activeIndex} className="story-carousel__slide" custom={direction} variants={{ enter: (dir: number) => ({ x: reduce ? 0 : `${dir * 100}%`, opacity: 0 }), center: { x: 0, opacity: 1 }, exit: (dir: number) => ({ x: reduce ? 0 : `${dir * -100}%`, opacity: 0 }) }} initial="enter" animate="center" exit="exit" transition={reduce ? { duration: 0.12 } : { type: "spring", stiffness: 200, damping: 40, mass: 1 }} drag={reduce ? false : "x"} dragConstraints={{ left: 0, right: 0 }} dragElastic={0.15} onDragEnd={(_, info) => { if (Math.abs(info.offset.x) > 45 || Math.abs(info.velocity.x) > 350) change(info.offset.x < 0 ? 1 : -1); }}><p className="eyebrow content-lines">{item.label}</p><h3>{item.title}</h3><p className="content-lines">{item.text}</p></motion.div></AnimatePresence></div>
+    <div className="carousel-controls"><button className="square-button" aria-label="Anterior" onClick={() => change(-1)}><Arrow direction="left" /></button><span className="carousel-count">{String(activeIndex + 1).padStart(2, "0")} / {String(items.length).padStart(2, "0")}</span><button className="square-button" aria-label="Siguiente" onClick={() => change(1)}><Arrow direction="right" /></button></div>
   </div>;
 }

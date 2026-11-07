@@ -1,9 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
-import { brand } from "@/content/site";
-import { SiteHeader } from "@/components/site-header";
-import { SiteFooter } from "@/components/site-footer";
-import { CustomCursor, ProgressiveBlur } from "@/components/visual-effects";
+import { getSiteContent } from "@/lib/content-store";
+import { SiteContentProvider } from "@/components/site-content";
+import { PublicShell } from "@/components/public-shell";
 import "./globals.css";
 
 const dmSans = localFont({
@@ -16,15 +15,20 @@ const dmSans = localFont({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: { default: "AMV Studio — Fotografía en Barcelona", template: "%s — AMV Studio" },
-  description: brand.description,
-  applicationName: "AMV Studio",
-  openGraph: { title: "AMV Studio — Fotografía en Barcelona", description: brand.description, locale: "es_ES", type: "website" },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const { brand } = await getSiteContent();
+  const title = `${brand.name} — Fotografía en ${brand.location.replace(/,.*$/, "")}`;
+  return {
+    title: { default: title, template: `%s — ${brand.name}` },
+    description: brand.description,
+    applicationName: brand.name,
+    openGraph: { title, description: brand.description, locale: "es_ES", type: "website" },
+  };
+}
 
 export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#000000", viewportFit: "cover" };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="es" className={dmSans.variable}><body><a href="#contenido" className="skip-link">Saltar al contenido</a><SiteHeader />{children}<SiteFooter /><ProgressiveBlur /><CustomCursor /></body></html>;
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const content = await getSiteContent();
+  return <html lang="es" className={dmSans.variable}><body><SiteContentProvider content={content}><PublicShell>{children}</PublicShell></SiteContentProvider></body></html>;
 }

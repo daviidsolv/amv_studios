@@ -31,13 +31,33 @@ npm start
 - Preferencia de movimiento reducido, foco visible y adaptación a 810/1200 px.
 - DM Sans y fotografías almacenadas localmente: no se descargan fuentes al compilar.
 
-## Contenido y futuro dashboard
+## Dashboard y contenido
 
-Los textos, el enlace de Instagram, las fotografías, categorías, series y sesiones están en **`src/content/site.ts`**. Las páginas consumen ese módulo; no hay una capa de datos ni una base de datos ficticia.
+El panel está en **`/admin`**. Permite editar textos, contacto, fotografías, series y su orden, sesiones, proceso, preguntas frecuentes y visibilidad de los apartados de inicio. Los cambios se publican al pulsar **Guardar cambios**. Un conflicto entre dos pestañas conserva el borrador y pide recargar la versión más reciente.
 
-Para reemplazar imágenes ahora, copiar los archivos a `public/images/` y actualizar `src`, `alt` y, cuando proceda, `position` en ese archivo. Las imágenes de referencia se identifican como provisionales en la web; sus URLs de origen están en `public/images/SOURCES.md`.
+La persistencia utiliza **Netlify Database** para contenido y metadatos, y **Netlify Blobs** para imágenes. La migración versionada está en `netlify/database/migrations/`; Netlify la aplica durante el despliegue. El contenido inicial se mantiene en `src/content/site.ts` y se valida mediante `src/content/schema.ts`. Sin conexión configurada se usa ese contenido para desarrollar la web pública localmente; el panel requiere configuración real.
 
-En la siguiente fase se podrá conectar el contenido a una base de datos y almacenamiento, y añadir el dashboard con autenticación, subida de imágenes y edición de apartados. Esta fase no incluye cuentas, uploads ni rutas administrativas. El contacto abre el perfil real de Instagram; no se simula el envío de formularios.
+La biblioteca admite JPG, PNG y WebP de hasta **4 MB** y 40 megapíxeles. El servidor comprueba el archivo real, lo orienta, elimina metadatos y genera WebP de hasta 2560 píxeles. Una imagen recién subida es privada hasta que se referencia en el contenido guardado. No se puede retirar una imagen que siga utilizándose; al retirarla de la biblioteca se archiva su registro y se conserva el archivo para recuperación. Las imágenes publicadas son accesibles a los visitantes y pueden descargarse.
+
+Las fotografías de referencia se identifican como provisionales; sus URLs de origen están en `public/images/SOURCES.md`. El aviso puede desactivarse desde **Contenido / General** cuando se hayan sustituido.
+
+## Acceso y configuración de Netlify
+
+Un solo administrador, sin registro público. La sesión utiliza una cookie cifrada HttpOnly, SameSite Strict y Secure en producción, con vencimiento de ocho horas. Hay un límite compartido de diez intentos de acceso cada quince minutos. Cambiar el hash de contraseña invalida las sesiones anteriores.
+
+Variables del servidor, configuradas con ámbito **Functions**:
+
+- `AMV_ADMIN_USERNAME`: nombre del administrador.
+- `AMV_ADMIN_PASSWORD_HASH`: hash scrypt, nunca la contraseña original.
+- `AMV_SESSION_SECRET`: secreto aleatorio de al menos 32 caracteres.
+- `AMV_SITE_ORIGIN`: origen HTTPS de la web pública.
+- `NETLIFY_DB_URL`: conexión administrada por Netlify Database; no se copia al código.
+
+`node scripts/create-admin.mjs https://tu-sitio.netlify.app` genera credenciales en `output/private/`, ignorado por Git. No reemplaza unas credenciales existentes. Guardar el acceso en un gestor de contraseñas; no publicar estos archivos. Para usar un dominio nuevo, actualizar también `AMV_SITE_ORIGIN` en Netlify.
+
+Los previews utilizan su rama de base de datos y otro nombre de almacén para las nuevas imágenes. Las credenciales se configuran también en el contexto de preview; el contenido del panel sigue protegido por sesión. No introducir fotos reales en previews de prueba.
+
+La cuenta permanece en el plan gratuito, con su cupo de uso y sin recargas de pago activadas por esta aplicación. Tráfico, despliegues y base de datos consumen recursos del plan; revisar el consumo en Netlify. Conservar aparte los originales y copias de seguridad del contenido importante.
 
 ## Comprobaciones
 
@@ -49,7 +69,7 @@ npm run build
 
 Las pruebas usan Chrome instalado y arrancan el servidor local si no está funcionando. Si no hay Chrome disponible, instalar el navegador de Playwright y retirar `channel: "chrome"` de `playwright.config.ts`.
 
-Cobertura de comportamiento: navegación, contacto, filtros y contador, visor y teclado, cierre/restauración de foco, menú móvil, vista de lista, centrado de texto y movimiento reducido. Capturas de revisión en `output/playwright/amv-*.png`.
+Cobertura de comportamiento: navegación pública, galería y teclado, menú móvil, movimiento reducido, login del panel, edición y conflictos, selección de fotos, validación de archivos, rechazo de accesos anónimos y otros orígenes, y persistencia sobre Postgres local aislado. Las pruebas de base de datos no utilizan producción. Capturas de revisión en `output/playwright/` y adjuntos de Playwright.
 
 La composición adapta la referencia al contenido real disponible: tres servicios, sin reseñas, clientes, precios, artículos o disponibilidad inventados. Se usa una imagen de fondo en contacto en lugar del vídeo de la demo. El blur inferior se retira al llegar al footer móvil para mantener legible el wordmark más horizontal de AMV Studio. Los reveals se activan al 15% de intersección para que los bloques altos también aparezcan en ventanas horizontales bajas.
 

@@ -1,14 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
-import type { Photo } from "@/content/site";
+import type { SiteContent } from "@/content/schema";
+
+type Photo = SiteContent["photos"]["soft"];
 
 export function Arrow({ direction = "up-right", className = "" }: { direction?: "up-right" | "down" | "left" | "right"; className?: string }) {
   return <svg className={`arrow arrow--${direction} ${className}`} viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>;
 }
 
-export function BrandMark({ className = "" }: { className?: string }) {
-  return <svg className={`brand-mark ${className}`} viewBox="0 0 1150 190" fill="currentColor" role="img" aria-label="AMV Studio"><text x="0" y="166" fontSize="195" fontWeight="900" letterSpacing="-13" textLength="1140" lengthAdjust="spacing">AMV STUDIO</text></svg>;
+export function BrandMark({ name, className = "" }: { name: string; className?: string }) {
+  return <svg className={`brand-mark ${className}`} viewBox="0 0 1150 190" fill="currentColor" role="img" aria-label={name}><text x="0" y="166" fontSize="195" fontWeight="900" letterSpacing="-13" textLength="1140" lengthAdjust="spacing">{name.toUpperCase()}</text></svg>;
 }
 
 export function PhotoImage({ photo, className = "", sizes = "(max-width: 809px) 100vw, 50vw", preload = false }: { photo: Photo; className?: string; sizes?: string; preload?: boolean }) {
