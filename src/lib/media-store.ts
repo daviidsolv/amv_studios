@@ -4,7 +4,7 @@ import { database } from "./database";
 import { ApiError } from "./http";
 
 export function imageStoreName() {
-  return process.env.CONTEXT === "production" ? "amv-images" : `amv-images-${process.env.DEPLOY_ID ?? "local"}`;
+  return process.env.AMV_DEPLOY_CONTEXT === "production" ? "amv-images" : `amv-images-${process.env.AMV_DEPLOY_ID ?? "local"}`;
 }
 export function imageStore(name = imageStoreName()) {
   return getStore({ name, consistency: "strong", region: "us-east-2" });

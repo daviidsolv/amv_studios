@@ -45,7 +45,7 @@ Las fotografías de referencia se identifican como provisionales; sus URLs de or
 
 Un solo administrador, sin registro público. La sesión utiliza una cookie cifrada HttpOnly, SameSite Strict y Secure en producción, con vencimiento de ocho horas. Hay un límite compartido de diez intentos de acceso cada quince minutos. Cambiar el hash de contraseña invalida las sesiones anteriores.
 
-Variables del servidor, configuradas con ámbito **Functions**:
+Variables privadas del proyecto en Netlify. En el plan Free, los secretos utilizan los ámbitos Builds, Functions y Runtime, excluyendo Post processing, y valores explícitos para producción y previews:
 
 - `AMV_ADMIN_USERNAME`: nombre del administrador.
 - `AMV_ADMIN_PASSWORD_HASH`: hash scrypt, nunca la contraseña original.
@@ -56,6 +56,8 @@ Variables del servidor, configuradas con ámbito **Functions**:
 `node scripts/create-admin.mjs https://tu-sitio.netlify.app` genera credenciales en `output/private/`, ignorado por Git. No reemplaza unas credenciales existentes. Guardar el acceso en un gestor de contraseñas; no publicar estos archivos. Para usar un dominio nuevo, actualizar también `AMV_SITE_ORIGIN` en Netlify.
 
 Los previews utilizan su rama de base de datos y otro nombre de almacén para las nuevas imágenes. Las credenciales se configuran también en el contexto de preview; el contenido del panel sigue protegido por sesión. No introducir fotos reales en previews de prueba.
+
+`next.config.ts` incorpora únicamente metadatos públicos del despliegue (contexto, identificador y URL) para autorizar su origen y separar la caché y las imágenes de las previews. Ninguna contraseña, hash o clave de sesión se incorpora mediante esa configuración.
 
 La cuenta permanece en el plan gratuito, con su cupo de uso y sin recargas de pago activadas por esta aplicación. Tráfico, despliegues y base de datos consumen recursos del plan; revisar el consumo en Netlify. Conservar aparte los originales y copias de seguridad del contenido importante.
 

@@ -14,7 +14,7 @@ export function apiError(error: unknown) {
 
 export function assertOrigin(request: Request) {
   const origin = request.headers.get("origin");
-  const allowed = [process.env.AMV_SITE_ORIGIN, process.env.DEPLOY_PRIME_URL, process.env.DEPLOY_URL];
+  const allowed = [process.env.AMV_SITE_ORIGIN, process.env.AMV_DEPLOY_URL];
   if (process.env.NODE_ENV !== "production") allowed.push(new URL(request.url).origin);
   if (!origin || !allowed.some((value) => value && new URL(value).origin === origin)) throw new ApiError(403, "Origen de la solicitud no permitido.");
 }

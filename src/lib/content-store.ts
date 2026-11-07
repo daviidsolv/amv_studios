@@ -12,7 +12,7 @@ export async function readContent(): Promise<ContentSnapshot> {
   return { content: row.document ? siteContentSchema.parse(row.document) : defaultContent, revision: row.revision, updatedAt: new Date(row.updated_at).toISOString() };
 }
 
-const cachedContent = unstable_cache(async () => (await readContent()).content, ["amv-site-content-v1"], { tags: ["amv-content"], revalidate: 60 });
+const cachedContent = unstable_cache(async () => (await readContent()).content, ["amv-site-content-v1", process.env.AMV_DEPLOY_ID ?? "local"], { tags: ["amv-content"], revalidate: 60 });
 export const getSiteContent = cache(async () => {
   // Netlify applies initial migrations after the framework build, before publishing.
   await connection();

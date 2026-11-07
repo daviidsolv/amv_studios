@@ -41,3 +41,4 @@
 - 2026-11-07: reanudado el trabajo; 20 pruebas correctas y build de producción completado. Pendiente la validación alojada antes de actualizar producción.
 - Primer build remoto: detectada lectura prematura de tablas antes de la migración inicial. Se retrasa el acceso al contenido hasta la petición mediante `connection()`, manteniendo la caché compartida.
 - La preview siguiente aplicó correctamente la migración, pero Netlify publicó `.next` sin generar funciones. Se declara el adaptador oficial de Next.js en `netlify.toml`, sin fijar una versión, para que empaquete SSR, API e imágenes.
+- Se verificó la configuración real de variables: el plan Free admite secretos con ámbitos Builds/Functions/Runtime y contextos explícitos. La configuración anterior de Functions exclusivamente no se había guardado. Los cuatro valores ya constan en Netlify, sin imprimir secretos. Los metadatos públicos de build se incorporan explícitamente para el origen y aislamiento de previews.
