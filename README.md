@@ -35,6 +35,8 @@ npm start
 
 El panel está en **`/admin`**. Permite editar textos, contacto, fotografías, series y su orden, sesiones, proceso, preguntas frecuentes y visibilidad de los apartados de inicio. Los cambios se publican al pulsar **Guardar cambios**. Un conflicto entre dos pestañas conserva el borrador y pide recargar la versión más reciente.
 
+Despliegue actual: [dashboard de AMV Studio](https://gorgeous-lebkuchen-5ba40e.netlify.app/admin). El acceso inicial se entrega mediante el archivo privado local `output/private/ACCESO_DASHBOARD.md`.
+
 La persistencia utiliza **Netlify Database** para contenido y metadatos, y **Netlify Blobs** para imágenes. La migración versionada está en `netlify/database/migrations/`; Netlify la aplica durante el despliegue. El contenido inicial se mantiene en `src/content/site.ts` y se valida mediante `src/content/schema.ts`. Sin conexión configurada se usa ese contenido para desarrollar la web pública localmente; el panel requiere configuración real.
 
 La biblioteca admite JPG, PNG y WebP de hasta **4 MB** y 40 megapíxeles. El servidor comprueba el archivo real, lo orienta, elimina metadatos y genera WebP de hasta 2560 píxeles. Una imagen recién subida es privada hasta que se referencia en el contenido guardado. No se puede retirar una imagen que siga utilizándose; al retirarla de la biblioteca se archiva su registro y se conserva el archivo para recuperación. Las imágenes publicadas son accesibles a los visitantes y pueden descargarse.

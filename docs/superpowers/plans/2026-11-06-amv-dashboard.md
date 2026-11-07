@@ -20,8 +20,8 @@
 - [x] Implementar persistencia, migración, sesión, límites de acceso y API protegida.
 - [x] Crear dashboard y biblioteca visual con edición y selección de imágenes.
 - [x] Integrar contenido persistente en las cuatro páginas sin alterar su diseño.
-- [ ] Verificar pruebas, build y revisión; desplegar primero una preview aislada y luego producción.
-- [ ] Comprobar en producción login, guardado, subida y persistencia; entregar acceso y documentación.
+- [x] Verificar pruebas, build y revisión; desplegar primero una preview aislada y luego producción.
+- [x] Comprobar en producción login, guardado, subida y persistencia; entregar acceso y documentación.
 
 ## Restricciones y revisión
 
@@ -43,3 +43,6 @@
 - La preview siguiente aplicó correctamente la migración, pero Netlify publicó `.next` sin generar funciones. Se declara el adaptador oficial de Next.js en `netlify.toml`, sin fijar una versión, para que empaquete SSR, API e imágenes.
 - Se verificó la configuración real de variables: el plan Free admite secretos con ámbitos Builds/Functions/Runtime y contextos explícitos. La configuración anterior de Functions exclusivamente no se había guardado. Los cuatro valores ya constan en Netlify, sin imprimir secretos. Los metadatos públicos de build se incorporan explícitamente para el origen y aislamiento de previews.
 - Preview 6aef2551c8b5525109de5dda: 18 comprobaciones alojadas correctas (acceso, escritura, persistencia, archivos, privacidad y protección frente a conflictos). El contenido de prueba se restauró y la foto de prueba se archivó. Login, edición y navegación móvil también comprobados en Chrome; sin desbordamiento horizontal. Almacén aislado de preview confirmado mediante la CLI.
+- Producción 6aef2619e4917605ff086c6c publicada desde main. Quince comprobaciones alojadas correctas: las cinco páginas responden, acceso privado, lectura de datos, subida real a Blobs, privacidad, lectura autenticada y archivo de la imagen temporal. El contenido público y su revisión permanecieron idénticos antes y después. Login, formularios, navegación móvil y logout comprobados también en Chrome sobre producción.
+- Almacenes verificados: `amv-images` para producción y `amv-images-6aef2551c8b5525109de5dda` para la preview. Contraseñas y secretos permanecen fuera de Git. 21 pruebas locales correctas; build y comprobación del primer despliegue sin tablas correctos. Pendiente únicamente la validación en Safari y teléfonos físicos.
+- Acceso: `https://gorgeous-lebkuchen-5ba40e.netlify.app/admin`. Credenciales en `output/private/ACCESO_DASHBOARD.md`, archivo local ignorado por Git.
